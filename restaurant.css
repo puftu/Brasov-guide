@@ -222,3 +222,45 @@ li {
 .single-features-area:hover .ratings-map-area>a:last-child {
   background-color: #30c0a3;
 }
+
+
+
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.section-heading span {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.section-heading h4 {
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.section-heading p {
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.section-heading.dark span {
+    background-color: #7643ea;
+}
+
+.section-heading.dark h4 {
+    color: #2a2a2a;
+}
+
+.section-heading.dark p {
+    color: #848484;
+}
