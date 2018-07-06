@@ -1,14 +1,6 @@
-/* ----------------------------------------------
-:: Template Name: Dorne - Directory & Listing Template
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com
-:: Version: v1.0.0
-:: Last Updated: 12-23-2017
----------------------------------------------- */
-
 /* Fonts */
 
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 /* Import CSS */
 
 @import 'css/bootstrap/bootstrap.min.css';
@@ -17,6 +9,11 @@
 @import 'css/others/owl.carousel.min.css';
 @import 'css/others/font-awesome.min.css';
 @import 'css/others/pe-icon-7-stroke.css';
+#map {
+  height: 500px;
+  border: 1px solid #ddd;
+}
+
 /* Base CSS */
 
 */ * {
@@ -121,153 +118,147 @@ li {
   z-index: 1;
 }
 
-/* Category Area CSS */
+/* Features Area CSS */
 
-.dorne-catagory-area {
-  display: none;
-  /* position: relative;
-  z-index: 9; */
+.bg-default {
+  background-color: #341a79;
 }
 
-@media screen and (max-width: 700px) {
-  .dorne-catagory-area {
-    display: block;
-    position: relative;
-    z-index: 9;
-  }
-  .single-catagory-area {
-    background-color: #7643ea;
-    border-radius: 5px;
-    text-align: center;
-    padding: 60px 15px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    transform: scale(1)
-  }
-  .single-catagory-area:hover {
-    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
-  }
-  .all-catagories {
-    position: relative;
-    /* top: -50%;
-  z-index: 15; */
-    padding-bottom: 50px;
-  }
-  .single-catagory-area .catagory-content img {
-    margin-bottom: 15px;
-  }
-  .single-catagory-area .catagory-content h6 {
-    margin-bottom: 0;
-    color: #fff;
-  }
-}
-
-/* Breadcumb Area CSS */
-
-.breadcumb-area {
-  height: 120px;
+.dorne-features-destinations-area, .dorne-features-restaurant-area {
+  padding: 100px 35px;
   position: relative;
   z-index: 1;
 }
 
-/* Contact Area CSS */
-
-.contact-form-area {
+.single-features-area {
   position: relative;
   z-index: 1;
-  padding: 100px 40px 100px 50px;
-}
-
-.contact-form-area, .dorne-map-area {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  width: 50%;
-}
-
-#googleMap {
-  width: 100%;
-  height: 100%;
-}
-
-.contact-text h4 {
-  text-transform: uppercase;
-  font-weight: 800;
-  margin-bottom: 50px;
-}
-
-.contact-text p {
-  font-size: 14px;
-  line-height: 2;
-  margin: 0;
-}
-
-.single-contact-info {
-  margin: 70px 0;
-}
-
-.single-contact-info:first-child {
-  margin-right: 65px;
-}
-
-.single-contact-info h6 {
-  font-size: 14px;
-}
-
-.single-contact-info h6>i {
-  color: #c2b6d9;
-  margin-right: 30px;
-}
-
-.contact-form {
-  padding: 70px 30px;
-  background-color: #f3edff;
-}
-
-.contact-form-title h6 {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.contact-form .form-control {
-  height: 50px;
-  font-size: 12px;
-  color: #72728c;
-  font-weight: 600;
-  border: none;
-  border-radius: 0;
-  margin-bottom: 30px;
-}
-
-.contact-form textarea.form-control {
-  height: 210px;
-  width: 100%;
-}
-
-.dorne-btn:hover {
-  background-color: #D3D3D3;
-}
-
-/* modificat */
-
-.carousel-caption {
-  margin-bottom: 230px;
-  /* color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
-}
-
-.img-responsive {
+  background-color: #f4f6f8;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  transform: scale(1)
 }
 
-.img-responsive:hover {
-  box-shadow: 5px 20px 30px rgba(0, 0, 0.3, 0);
-  transform: scale(1.1);
+.single-features-area .price-start p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #7643ea;
+  height: 35px;
+  font-size: 12px;
+  line-height: 35px;
+  margin-bottom: 0;
+  padding: 0 15px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 9;
 }
 
-.footer-copyright {
-  background-color: #9370DB;
+.feature-content {
+  padding: 40px 30px;
+}
+
+.feature-content .feature-title h5 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.feature-content .feature-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.feature-favourite>a {
+  color: #7643ea;
+  font-size: 24px;
+}
+
+.single-features-area:hover {
+  background-color: #7643ea;
+  box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.single-features-area:hover .feature-content .feature-title h5, .single-features-area:hover .feature-content .feature-title p, .single-features-area:hover .feature-favourite>a {
+  color: #fff;
+}
+
+.ratings-map-area>a {
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  height: 70px;
+  line-height: 70px;
+  background-color: #7643ea;
+}
+
+.ratings-map-area>a:last-child {
+  background-color: #2a2a2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.ratings-map-area {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+}
+
+.single-features-area:hover .ratings-map-area>a:last-child {
+  background-color: #30c0a3;
+}
+
+a .section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+.section-heading span {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.section-heading h4 {
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.section-heading p {
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.section-heading.dark span {
+  background-color: #7643ea;
+}
+
+.section-heading.dark h4 {
+  color: #2a2a2a;
+}
+
+.section-heading.dark p {
+  color: #848484;
 }
