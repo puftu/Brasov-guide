@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 /* Import CSS */
 
-@import 'css/bootstrap/bootstrap.min.css';
-@import 'css/others/animate.css';
-@import 'css/others/magnific-popup.css';
-@import 'css/others/owl.carousel.min.css';
-@import 'css/others/font-awesome.min.css';
-@import 'css/others/pe-icon-7-stroke.css';
+@import '../css/bootstrap/bootstrap.min.css';
+@import '../css/others/animate.css';
+@import '../css/others/magnific-popup.css';
+@import '../css/others/owl.carousel.min.css';
+@import '../css/others/font-awesome.min.css';
+@import '../css/others/pe-icon-7-stroke.css';
 #map {
   height: 500px;
   border: 1px solid #ddd;
@@ -223,44 +223,42 @@ li {
   background-color: #30c0a3;
 }
 
-
-
 .section-heading {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
 }
 
 .section-heading span {
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-    margin: 0 auto 15px;
-    display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 auto 15px;
+  display: block;
 }
 
 .section-heading h4 {
-    font-weight: 800;
-    line-height: 1;
-    color: #fff;
-    margin-bottom: 15px;
-    text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .section-heading p {
-    line-height: 1;
-    color: #fff;
-    margin-bottom: 0;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .section-heading.dark span {
-    background-color: #7643ea;
+  background-color: #7643ea;
 }
 
 .section-heading.dark h4 {
-    color: #2a2a2a;
+  color: #2a2a2a;
 }
 
 .section-heading.dark p {
-    color: #848484;
+  color: #848484;
 }
