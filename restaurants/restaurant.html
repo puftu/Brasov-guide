@@ -21,6 +21,8 @@
   <!-- Responsive CSS -->
   <link href="../css/responsive/responsive.css" rel="stylesheet">
 
+
+
 </head>
 
 <body>
@@ -43,13 +45,13 @@
                   <a class="nav-link" href="../tourist attractions.html">Tourist attractions</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../housing.html">Housing</a>
+                  <a class="nav-link" href="../hotels.html">Hotels</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../restaurants/restaurant.html">Restaurant</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../shopping.html">Shopping&Fun</a>
+                  <a class="nav-link" href="../shopping.html">Shopping</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../events.html">Events</a>
@@ -71,7 +73,7 @@
   <section class="dorne-features-restaurant-area bg-default">
 
     <div class="container-fluid">
-      <div class="row">
+      <div class="row my-5">
         <div class="col-12">
           <div class="section-heading text-center">
             <span></span>
@@ -84,14 +86,18 @@
       <div class="container">
         <div class="row">
 
+
           <!-- Gaura Dulce Start -->
+          <div class="restaurantContainer">
+
+          </div>
 
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card single-features-area">
               <img class="card-img-top img-fluid" src="../img/restaurants/gaura-dulce-9.png">
               <div class="ratings-map-area d-flex">
                 <a href="#">4.3</a>
-                <a href="#"><img src="../img/core-img/map.png" alt=""></a>
+                <a href="#" data-restaurant-id="2" id="gauraDulce"><img src="../img/core-img/map.png" alt=""></a>
               </div>
               <div class="card-block">
                 <div class="card-body">
@@ -318,7 +324,6 @@
           </div>
 
           <!-- Vino e Sapori End -->
-
         </div>
       </div>
 
@@ -337,6 +342,38 @@
 
 <!-- ****** Footer Area End ****** -->
 
+<script type="x-tmpl-mustache" id="restaurantTemplate">
+  {{#restaurants}}
+  <div class="col-md-6 col-lg-3 mb-5">
+    <div class="card single-features-area">
+      <img class="card-img-top img-fluid" src="../img/restaurants/{{picture}}">
+      <div class="ratings-map-area d-flex">
+        <a href="#">4.3</a>
+        <a href="#" data-restaurant-id="2" id="gauraDulce"><img src="../img/core-img/map.png" alt=""></a>
+      </div>
+      <div class="card-block">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+          <p>Brasov</p>
+          <span>
+            <a class="btn btn-info mb-2" data-toggle="collapse" href="#collapseGauraDulce" role="button" aria-expanded="false" aria-controls="collapseExample">
+              More Info
+            </a>
+          </span>
+          <div class="collapse" id="collapseGauraDulce">
+            <div class="card card-body">
+              <p>Piața Sfatului 14, Brașov</p>
+              <p>gauradulce.ro </p>
+              <p>0268 523 099</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/restaurants}}
+</script>
+
 <!-- jQuery-2.2.4 js -->
 <script src="../js/jquery/jquery-2.2.4.min.js"></script>
 <!-- Popper js -->
@@ -345,11 +382,14 @@
 <script src="../js/bootstrap/bootstrap.min.js"></script>
 <!-- All Plugins js -->
 <script src="../js/others/plugins.js"></script>
+<!-- Mustache -->
+<script type="text/javascript" src="mustache.min.js"></script>
 <!-- Map JS -->
 <script src="map.js"></script>
 <!-- Map API -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk9KNSL1jTv4MY9Pza6w8DJkpI_nHyCnk&callback=initMap" async defer></script>
 <!-- Active S -->
 <script src="../js/active.js"></script>
+
 
 </html>
