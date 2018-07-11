@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 /* Import CSS */
 
-@import 'css/bootstrap/bootstrap.min.css';
-@import 'css/others/animate.css';
-@import 'css/others/magnific-popup.css';
-@import 'css/others/owl.carousel.min.css';
-@import 'css/others/font-awesome.min.css';
-@import 'css/others/pe-icon-7-stroke.css';
+@import '../css/bootstrap/bootstrap.min.css';
+@import '../css/others/animate.css';
+@import '../css/others/magnific-popup.css';
+@import '../css/others/owl.carousel.min.css';
+@import '../css/others/font-awesome.min.css';
+@import '../css/others/pe-icon-7-stroke.css';
 #map {
   height: 500px;
   border: 1px solid #ddd;
@@ -262,3 +262,6 @@ a .section-heading {
 .section-heading.dark p {
   color: #848484;
 }
+
+.footer-copyright {
+  background-color: #9370DB;
