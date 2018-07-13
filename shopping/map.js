@@ -1,14 +1,16 @@
 $(function() {
-  initMarkers();
+  window.googleMarkerData = [];
+  initMarkerData();
   initShoppingTemplate();
-  $("#coresi").on("click", addMarker);
-  // $("#eliana").on("click", addMarker);
+  $(".markerLink").on("click", highlightMarker);
 });
 
-function initMarkers() {
-  window.markers = [{
+function initMarkerData() {
+  window.markerData = [{
       name: "Coresi Shopping Resort",
       picture: "coresi.jpg",
+      index: 0,
+      id: "coresi",
       rating: 4.6,
       address: "Strada Zaharia Stancu 1, Brașov",
       website: "https://www.coresibrasov.ro/",
@@ -22,6 +24,8 @@ function initMarkers() {
     {
       name: "Eliana Mall",
       picture: "eliana.jpg",
+      index: 1,
+      id: "eliana",
       rating: 4.1,
       address: "Strada Bazaltului 2, Brașov",
       website: "https://eliana-mall.ro/",
@@ -35,6 +39,8 @@ function initMarkers() {
     {
       name: "Unirea Shopping Center",
       picture: "unirea.jpg",
+      index: 2,
+      id: "unirea",
       rating: 3.6,
       address: "Bulevardul Gării 3A, Brașov",
       website: "http://www.unireashop.ro/",
@@ -48,6 +54,8 @@ function initMarkers() {
     {
       name: "Star Shopping Center",
       picture: "star.jpg",
+      index: 3,
+      id: "star",
       rating: 4.7,
       address: "Strada Nicolae Bălcescu 62, Brașov",
       website: "http://www.starcom.ro/",
@@ -64,25 +72,39 @@ function initMarkers() {
 function initMap() {
 
   window.map = new google.maps.Map(document.querySelector('#map'), {
-    center: markers[0].coordonates,
+    center: markerData[1].coordonates,
     zoom: 17
   });
-
+  for (var i = 0; i < markerData.length; i++) {
+    var marker = new google.maps.Marker({
+      position: markerData[i].coordonates,
+      map: map
+    });
+    googleMarkerData.push(marker);
+  }
 }
 
-function addMarker(event) {
-  var shoppingId = $(this).data("shoppingId");
-  console.log(shoppingId);
-  var marker = new google.maps.Marker({
-    position: markers[shoppingId].coordonates,
-    map: map
-  });
+function highlightMarker(event) {
+  var index = $(this).data("markerIndex");
+  console.log(index);
+  clearMarkerAnimation();
+  if (googleMarkerData[index].getAnimation() != google.maps.Animation.BOUNCE) {
+    googleMarkerData[index].setAnimation(google.maps.Animation.BOUNCE);
+  } else {
+    googleMarkerData[index].setAnimation(null);
+  }
+  map.setCenter(markerData[index].coordonates);
+};
 
+function clearMarkerAnimation() {
+  for (var i = 0; i < googleMarkerData.length; i++) {
+    googleMarkerData[i].setAnimation(null);
+  }
 }
 
 function initShoppingTemplate() {
   var rendered = Mustache.render($('#shoppingTemplate').html(), {
-    "shopping": markers
+    "shopping": markerData
   });
   $('.shoppingContainer').html(rendered);
 }

@@ -110,18 +110,18 @@
       <img class="card-img-top img-fluid" src="../img/shopping/{{picture}}">
       <div class="ratings-map-area d-flex">
         <a href="#">{{rating}}</a>
-        <a href="#" data-shopping-id="0" id="coresi"><img src="../img/core-img/map.png" alt=""></a>
+        <a class="markerLink" href="#" data-marker-index="{{index}}" id="{{idName}}"><img src="../img/core-img/map.png" alt=""></a>
       </div>
       <div class="card-block">
         <div class="card-body">
-          <h5 class="card-title">{{name}}</h5>
+          <h6 class="card-title">{{name}}</h6>
           <p>Brasov</p>
           <span>
-            <a class="btn btn-info mb-2" data-toggle="collapse" href="#collapseCoresi" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn btn-info mb-2" data-toggle="collapse" href="#collapse-{{id}}" role="button" aria-expanded="false" aria-controls="collapseExample">
               More Info
             </a>
           </span>
-          <div class="collapse" id="collapseCoresi">
+          <div class="collapse" id="collapse-{{id}}">
             <div class="card card-body">
               <p><i class="fa fa-map-marker-alt"></i> {{address}}</p>
               <p><a href="{{website}}"><i class="fas fa-globe"></i> {{nameWebSite}}</a></p>

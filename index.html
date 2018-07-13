@@ -21,8 +21,8 @@
       <div class="row h-100">
         <div class="col-12 h-100">
           <nav class="h-100 navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html"><img src="img/Images/logoo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <a class="navbar-brand" href="index.html"><img src="img/Images/logoo.png" alt="" class="img-responsive"></a>
+
             <!-- Nav -->
             <div class="collapse navbar-collapse" id="dorneNav">
               <ul class="navbar-nav mr-auto" id="dorneMenu">
@@ -85,6 +85,26 @@
     </div>
   </section>
 
+  <!-- Weather -->
+  <section class="weather1 mb-4">
+    <div class="container">
+      <div class="row px-2 py-4">
+        <div class="col-12 col-sm-6 col-md">
+          <div class="weather text-center">
+            <h4 class="temp"></h4>
+            <h6 class="text-center"><span class="city"></span>, <span class="country"></span></h6>
+            <div class="iconpic">
+              <img src="" class='img img-responsive center-block'>
+            </div>
+            <h5 class="weatherDetail"></h5><br/>
+            <button class="btn btn-primery btn-sm" type="button" name="button"><a class="text-center" href="https://weather.yahoo.com/ro/brasov/brasov-56579828/">More Info</a></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- ***** Catagory Area Start ***** -->
   <section class="dorne-catagory-area">
     <div class="container">
@@ -93,7 +113,7 @@
           <div class="all-catagories">
             <div class="row">
               <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md">
+              <div class="col-12 col-sm-6 col-md pb-4">
                 <a href="#">
                   <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.2s">
                     <div class="catagory-content">
@@ -104,7 +124,7 @@
                 </a>
               </div>
               <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md">
+              <div class="col-12 col-sm-6 col-md pb-4">
                 <a href="#">
                   <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.4s">
                     <div class="catagory-content">
@@ -115,7 +135,7 @@
                 </a>
               </div>
               <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md">
+              <div class="col-12 col-sm-6 col-md pb-4">
                 <a href="restaurant/test.html">
                   <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.6s">
                     <div class="catagory-content">
@@ -126,7 +146,7 @@
                 </a>
               </div>
               <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md">
+              <div class="col-12 col-sm-6 col-md pb-4">
                 <a href="#">
                   <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.8s">
                     <div class="catagory-content">
@@ -175,11 +195,13 @@
   <script src="js/others/plugins.js"></script>
   <!-- Active JS -->
   <script src="js/active.js"></script>
+  <script src="js/weather.js"></script>
   <script type="text/javascript ">
     $('.carousel').carousel({
       interval: 4000
     })
   </script>
+
 </body>
 
 </html>
