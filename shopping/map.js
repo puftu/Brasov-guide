@@ -73,15 +73,23 @@ function initMap() {
 
   window.map = new google.maps.Map(document.querySelector('#map'), {
     center: markerData[1].coordonates,
-    zoom: 17
+    zoom: 12
   });
   for (var i = 0; i < markerData.length; i++) {
     var marker = new google.maps.Marker({
       position: markerData[i].coordonates,
-      map: map
+      map: map,
+      title: markerData[i].name + "\n" + markerData[i].address + "\n" + markerData[i].phone
     });
     googleMarkerData.push(marker);
   }
+  for (var i = 0; i < markerData.length; i++)
+    var infoWindow = new google.maps.InfoWindow({
+      content: markerData[i].address
+    });
+  google.maps.event.addListener(marker, 'click', function() {
+    infoWindow.open(map, marker);
+  });
 }
 
 function highlightMarker(event) {
