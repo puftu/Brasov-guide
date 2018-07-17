@@ -82,13 +82,18 @@ function initMap() {
       title: markerData[i].name + "\n" + markerData[i].address + "\n" + markerData[i].phone
     });
     googleMarkerData.push(marker);
+
+    attachSecretMessage(marker, markerData[i].address);
   }
-  for (var i = 0; i < markerData.length; i++)
-    var infoWindow = new google.maps.InfoWindow({
-      content: markerData[i].address
-    });
-  google.maps.event.addListener(marker, 'click', function() {
-    infoWindow.open(map, marker);
+}
+
+function attachSecretMessage(marker, secretMessage) {
+  var infowindow = new google.maps.InfoWindow({
+    content: secretMessage
+  });
+
+  marker.addListener('click', function() {
+    infowindow.open(marker.get('map'), marker);
   });
 }
 

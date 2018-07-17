@@ -8,7 +8,7 @@
 
 /* Fonts */
 
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 /* Import CSS */
 
 @import 'css/bootstrap/bootstrap.min.css';
@@ -110,6 +110,10 @@ li {
   color: #7643ea;
 }
 
+/* .navbar-toggler {
+  border: 2px solid white;
+} */
+
 /* Welcome Area CSS */
 
 .dorne-welcome-area {
@@ -127,40 +131,6 @@ li {
   display: none;
   /* position: relative;
   z-index: 9; */
-}
-
-@media screen and (max-width: 700px) {
-  .dorne-catagory-area {
-    display: block;
-    position: relative;
-    z-index: 9;
-  }
-  .single-catagory-area {
-    background-color: #7643ea;
-    border-radius: 5px;
-    text-align: center;
-    padding: 60px 15px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    transform: scale(1)
-  }
-  .single-catagory-area:hover {
-    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
-  }
-  .all-catagories {
-    position: relative;
-    /* top: -50%;
-  z-index: 15; */
-    padding-bottom: 50px;
-  }
-  .single-catagory-area .catagory-content img {
-    margin-bottom: 15px;
-  }
-  .single-catagory-area .catagory-content h6 {
-    margin-bottom: 0;
-    color: #fff;
-  }
 }
 
 /* Breadcumb Area CSS */
@@ -282,6 +252,7 @@ li {
   background: rgba(225, 255, 255, 0.3);
   height: auto;
   width: auto;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 700px) {
@@ -293,6 +264,30 @@ li {
     height: auto;
     width: auto;
   }
+}
+
+#myBtn {
+  /* background: #000;
+  color: #fff; */
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 650px;
+  right: 20px;
+  padding: 10px;
+  z-index: 99;
+  /* background: rgba(225, 255, 255, 0.3); */
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}
+
+/* contact */
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-copyright {

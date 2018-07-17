@@ -10,7 +10,7 @@
   <link rel="icon" href="img/Images/logoTitle.png">
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="style.css">
-  <link href="/css/responsive/responsive.css" rel="stylesheet">
+  <link href="css/responsive/responsive.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#header" data-offset="550">
@@ -22,6 +22,7 @@
         <div class="col-12 h-100">
           <nav class="h-100 navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html"><img src="img/Images/logoo.png" alt="" class="img-responsive"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
 
             <!-- Nav -->
             <div class="collapse navbar-collapse" id="dorneNav">
@@ -86,18 +87,21 @@
 
   <section>
     <div class="dorne-welcome-area">
-      <video autoplay loop id="video-background" muted plays-inline>
+      <video autoplay loop id="myVideo" muted plays-inline>
   <source src="img/Images/brasovVideo.mp4" type="video/mp4">
 </video>
+      <button id="myBtn" class="btn btn-primery btn-sm" onclick="myFunction()">Pause</button>
     </div>
   </section>
 
   <!-- Weather -->
-  <section class="weather1 mb-4">
+  <section class="dorne-welcome-area weather1 mb-4">
     <div class="container">
-      <div class="row px-2 py-4">
-        <div class="col-12 col-sm-6 col-md">
-          <div class="weather text-center">
+
+      <div class="col-12">
+        <div class="row py-4 ">
+
+          <div class="col-sm-12 text-center">
             <h4 class="temp"></h4>
             <h6 class="text-center"><span class="city"></span>, <span class="country"></span></h6>
             <div class="iconpic">
@@ -105,10 +109,10 @@
             </div>
             <h5 class="weatherDetail"></h5><br/>
             <button class="btn btn-primery btn-sm" type="button" name="button"><a class="text-center" href="https://weather.yahoo.com/ro/brasov/brasov-56579828/">More Info</a></button>
+            <!-- </div> -->
           </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- weather -->
 
@@ -204,9 +208,25 @@
   <script src="js/active.js"></script>
   <script src="js/weather.js"></script>
   <script type="text/javascript ">
-    $('.carousel').carousel({
-      interval: 4000
-    })
+    // $('.carousel').carousel({
+    //   interval: 4000
+    // })
+    // Get the video
+    var video = document.getElementById("myVideo");
+
+    // Get the button
+    var btn = document.getElementById("myBtn");
+
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
   </script>
 
 </body>
