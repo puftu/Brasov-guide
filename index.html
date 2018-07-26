@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Travel</title>
   <link rel="icon" href="img/Images/logoTitle.png">
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="css/others/animate.css">
   <link rel="stylesheet" href="style.css">
   <link href="css/responsive/responsive.css" rel="stylesheet">
 </head>
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="dorneNav">
               <ul class="navbar-nav mr-auto" id="dorneMenu">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="" data-navigo>Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="tourist attractions.html">Tourist attractions</a>
@@ -46,7 +46,7 @@
                   <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="contact" data-navigo>Contact</a>
                 </li>
               </ul>
             </div>
@@ -56,100 +56,7 @@
     </div>
   </header>
 
-  <section class="dorne-welcome-area">
-    <video autoplay loop id="myVideo" muted plays-inline>
-  <source src="img/Images/brasovVideo.mp4" type="video/mp4">
-</video>
-    <button id="myBtn" class="btn btn-primery btn-sm" onclick="myFunction()">Pause</button>
-  </section>
-
-  <!-- Weather -->
-  <section class="dorne-welcome-area weather1">
-    <div class="container">
-      <div class="col-12">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h4 class="temp"></h4>
-            <h6 class="text-center"><span class="city">Brasov</span>, <span class="country">Romania</span></h6>
-            <div class="iconpic">
-              <img src="" class='img img-responsive center-block'>
-            </div>
-            <h5 class="weatherDetail"></h5>
-          </div>
-        </div>
-      </div>
-  </section>
-  <!-- weather -->
-
-  <!-- ***** Catagory Area Start ***** -->
-  <section class="dorne-catagory-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="all-catagories">
-            <div class="row">
-              <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md pb-4">
-                <a href="tourist attractions.html">
-                  <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.2s">
-                    <div class="catagory-content">
-                      <img src="img/Images/icon-6.png" alt="">
-                      <h6>Tourist attractions</h6>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md pb-4">
-                <a href="hotels.html">
-                  <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.4s">
-                    <div class="catagory-content">
-                      <img src="img/Images/icon-1.png" alt="">
-                      <h6>Hotels</h6>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md pb-4">
-                <a href="restaurants/restaurant.html">
-                  <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.6s">
-                    <div class="catagory-content">
-                      <img src="img/Images/icon-2.png" alt="">
-                      <h6>Restaurants</h6>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single Catagory Area -->
-              <div class="col-12 col-sm-6 col-md pb-4">
-                <a href="shopping/shopping.html">
-                  <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.8s">
-                    <div class="catagory-content">
-                      <img src="img/Images/icon-3.png" alt="">
-                      <h6>Shopping</h6>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Single Catagory Area -->
-              <div class="col-12 col-md">
-                <a href="events.html">
-                  <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="1s">
-                    <div class="catagory-content">
-                      <img src="img/Images/icon-5.png" alt="">
-                      <h6>Events</h6>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** Catagory Area End ***** -->
+  <div id="mainContainer"></div>
 
   <!-- footer start-->
   <section>
@@ -172,27 +79,9 @@
   <!-- Active JS -->
   <script src="js/active.js"></script>
   <script src="js/weather.js"></script>
-  <script type="text/javascript ">
-    // $('.carousel').carousel({
-    //   interval: 4000
-    // })
-    // Get the video
-    var video = document.getElementById("myVideo");
-
-    // Get the button
-    var btn = document.getElementById("myBtn");
-
-    // Pause and play the video, and change the button text
-    function myFunction() {
-      if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
-      } else {
-        video.pause();
-        btn.innerHTML = "Play";
-      }
-    }
+  <script type="text/javascript" src="js/navigo.min.js">
   </script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
