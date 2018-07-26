@@ -44,6 +44,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .dorne-welcome-area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
   .navbar-toggler {
     border: 2px solid #fff;
     color: #fff;
@@ -138,6 +144,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .dorne-welcome-area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
   .header_area {
     padding: 0;
   }
@@ -321,6 +333,12 @@
     display: block;
     position: relative;
     z-index: 9;
+  }
+  .dorne-welcome-area {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
   }
   .dorne-footer-area {
     padding: 10px 0;

@@ -94,6 +94,10 @@ function attachSecretMessage(marker, secretMessage) {
 
   marker.addListener('click', function() {
     infowindow.open(marker.get('map'), marker);
+
+    setTimeout(function() {
+      infowindow.close();
+    }, 3000);
   });
 }
 
