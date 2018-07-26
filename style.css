@@ -76,6 +76,7 @@ li {
   z-index: 99;
   -webkit-transition-duration: 700ms;
   transition-duration: 700ms;
+  /* background: rgba(225, 255, 255, 0.3); */
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   padding: 0 30px;
 }
@@ -102,7 +103,9 @@ li {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 15px;
   padding-left: 15px;
-  color: #fff;
+  color: white;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 15px;
 }
 
@@ -118,9 +121,7 @@ li {
 
 .dorne-welcome-area {
   width: 100%;
-  padding-bottom: 40px;
-  /* height: 945px; */
-  /* height: 905px; */
+  height: auto;
   position: relative;
   z-index: 1;
 }
@@ -219,14 +220,6 @@ li {
   background-color: #D3D3D3;
 }
 
-/* modificat */
-
-.carousel-caption {
-  margin-bottom: 230px;
-  /* color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
-}
-
 .img-responsive {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -238,7 +231,17 @@ li {
   transform: scale(1.1);
 }
 
-/* weather */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* video */
+
+video {
+  width: 100%;
+  height: auto;
+}
 
 /* weather */
 
@@ -248,7 +251,6 @@ li {
   top: 120px;
   right: 20px;
   padding: 10px;
-  z-index: 99;
   background: rgba(225, 255, 255, 0.3);
   height: auto;
   width: auto;
@@ -259,8 +261,8 @@ li {
   .weather1 {
     display: block;
     position: relative;
-    z-index: 999;
     top: 0px;
+    right: 0px;
     height: auto;
     width: auto;
   }
@@ -280,6 +282,18 @@ li {
   height: auto;
   width: auto;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  #myBtn {
+    display: block;
+    position: relative;
+    z-index: 9999;
+    left: 0px;
+    top: -50px;
+    height: auto;
+    width: auto;
+  }
 }
 
 /* contact */

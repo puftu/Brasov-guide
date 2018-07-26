@@ -83,7 +83,7 @@ function initMap() {
     });
     googleMarkerData.push(marker);
 
-    attachSecretMessage(marker, markerData[i].address);
+    attachSecretMessage(marker, markerData[i].name + "\n" + markerData[i].address);
   }
 }
 

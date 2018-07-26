@@ -141,6 +141,9 @@
   .header_area {
     padding: 0;
   }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+  }
   .navbar-brand {
     margin-right: 0;
   }
@@ -158,7 +161,7 @@
     padding: 15px;
     background-color: #341a79;
     box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
-    border-radius: 0 0 3px 3px
+    border-radius: 0 0 3px 3px;
   }
   .dorne-search-btn>a, .dorne-signin-btn>a {
     margin-right: 0;
@@ -234,8 +237,9 @@
     padding: 30px;
   }
   .dorne-footer-area {
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
+    font-size: 12px;
   }
   .footer-text {
     margin-bottom: 30px;
@@ -317,6 +321,11 @@
     display: block;
     position: relative;
     z-index: 9;
+  }
+  .dorne-footer-area {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
   }
   .single-catagory-area {
     background-color: #7643ea;
