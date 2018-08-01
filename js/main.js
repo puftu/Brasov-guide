@@ -23,6 +23,12 @@ $(function() {
         $("#mainContainer").load("contact.html");
       }
     });
+    router.on({
+      'restaurants': function() {
+        console.log("restaurants");
+        $("#mainContainer").load("restaurants/restaurant.html");
+      }
+    });
     router.resolve();
   }
 
