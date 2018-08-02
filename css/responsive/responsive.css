@@ -14,40 +14,13 @@
     padding-left: 7px;
     font-size: 14px;
   }
-  .hero-content h2 {
-    font-size: 50px;
-  }
-  .hero-social-btn {
-    bottom: 130px;
-  }
-  .hero-search-form .tab-content .tab-pane form .custom-select {
-    padding: 0 50px 0 20px;
-  }
-  .explore-search-form {
-    padding: 30px 20px;
-  }
-  .explore-search-result {
-    padding: 0 20px;
-  }
-  .explore-search-form h6 {
-    font-size: 16px;
-  }
-  .single-contact-info h6 {
-    font-size: 13px;
-  }
-  .single-contact-info h6>i {
-    margin-right: 10px;
-  }
-  .single-contact-info:first-child {
-    margin-right: 15px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .dorne-welcome-area {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
   }
   .navbar-toggler {
@@ -99,39 +72,6 @@
   .clients-logo img {
     padding: 0 15px;
   }
-  .explore-search-area {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 60%;
-    flex: 0 0 60%;
-    width: 60%;
-  }
-  .explore-map-area {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 40%;
-    flex: 0 0 40%;
-    width: 40%;
-  }
-  .explore-search-form, .explore-search-result {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    width: 50%;
-  }
-  .explore-search-form {
-    padding: 30px 15px;
-  }
-  .explore-search-result {
-    padding: 0 15px;
-  }
-  .explore-search-form h6 {
-    font-size: 14px;
-  }
-  .explore-search-form .tab-content .tab-pane form .custom-select {
-    margin-bottom: 15px;
-  }
-  .listing-sidebar {
-    margin-top: 100px;
-  }
   .contact-form-area {
     padding: 50px 20px;
   }
@@ -140,6 +80,14 @@
   }
   .contact-text h4 {
     font-size: 20px;
+  }
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
   }
 }
 
@@ -180,73 +128,12 @@
     margin-left: 15px;
     padding: 10px 0;
   }
-  .hero-content h2 {
-    color: #fff;
-    font-size: 24px;
-  }
-  .hero-social-btn {
-    display: none;
-  }
-  .hero-search-form .tab-content .tab-pane form .custom-select {
-    padding: 0 10px;
-    margin-right: 5px;
-  }
   .dorne-btn {
     min-width: 150px;
   }
   .all-catagories {
     top: 0;
     padding: 30px 0;
-  }
-  .hero-content h4 {
-    padding-left: 0;
-    font-size: 16px;
-  }
-  .hero-search-form .tab-content .tab-pane h6 {
-    font-size: 16px;
-  }
-  .hero-search-form .tab-content .tab-pane form {
-    display: block;
-  }
-  .hero-search-form .tab-content .tab-pane form .custom-select {
-    padding: 0 50px 0 20px;
-    margin-right: 0;
-    margin-bottom: 5px;
-    width: 100%;
-  }
-  .single-catagory-area {
-    margin-bottom: 30px;
-  }
-  .about-content h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-  .editors-pick-info .places-total-destinations>a, .editors-pick-info .add-more>a {
-    height: 50px;
-    line-height: 50px;
-    padding: 0 15px;
-  }
-  .editors-pick-info {
-    top: 15px;
-    left: 15px;
-  }
-  .dorne-features-destinations-area, .dorne-features-restaurant-area {
-    padding: 100px 15px;
-  }
-  .single-catagory-area {
-    padding: 40px 15px;
-  }
-  .feature-events-thumb {
-    width: 100%;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-  }
-  .feature-events-content {
-    padding: 30px 15% 30PX 20px;
-  }
-  .clients-logo>img {
-    padding: 30px;
   }
   .dorne-footer-area {
     padding: 10px 0;
@@ -255,45 +142,6 @@
   }
   .footer-text {
     margin-bottom: 30px;
-  }
-  .explore-search-area, .explore-map-area, .explore-search-form, .explore-search-result {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    width: 100%;
-  }
-  .explore-search-form {
-    padding: 30px 15px;
-  }
-  .explore-search-form h6 {
-    font-size: 14px;
-  }
-  .explore-search-form .tab-content .tab-pane form .custom-select {
-    margin-bottom: 15px;
-  }
-  .explore-search-area {
-    height: 1500px;
-  }
-  .explore-map-area {
-    height: 800px;
-  }
-  .explore-search-result {
-    padding: 0 30px;
-    height: 550px;
-    overflow-y: auto
-  }
-  .explore-search-form .nav-tabs {
-    margin-bottom: 30px;
-  }
-  .listing-sidebar {
-    margin-top: 100px;
-  }
-  .map-ratings-review-area>a {
-    padding: 0 20px;
-  }
-  .single-listing-nav li a {
-    padding: 30px 5px;
-    font-size: 12px;
   }
   .contact-form-area, .dorne-map-area {
     -webkit-box-flex: 0;
@@ -307,11 +155,24 @@
   .dorne-map-area {
     height: 500px;
   }
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 25%;
+    -moz-column-width: 25%;
+    column-width: 25%;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .hero-content h2 {
-    font-size: 36px;
+  .weather1 {
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: auto;
+    width: auto;
   }
   .feature-events-thumb {
     width: 179px;
@@ -370,5 +231,17 @@
   .single-catagory-area .catagory-content h6 {
     margin-bottom: 0;
     color: #fff;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    text-align: center;
   }
 }
