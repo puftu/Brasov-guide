@@ -29,6 +29,12 @@ $(function() {
         $("#mainContainer").load("restaurants/restaurant.html");
       }
     });
+    router.on({
+      'gallery': function() {
+        console.log("gallery");
+        $("#mainContainer").load("gallery/gallery.html");
+      }
+    });
     router.resolve();
   }
 
