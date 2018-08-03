@@ -84,6 +84,7 @@ $(function() {
 
   function homePageComplete() {
     $("#myBtn").on('click', initVideo);
+    router.updatePageLinks();
   }
 
   // Pause and play the video, and change the button text

@@ -74,13 +74,13 @@ li {
   z-index: 99;
   -webkit-transition-duration: 700ms;
   transition-duration: 700ms;
-  /* background: rgba(225, 255, 255, 0.3); */
+  background: rgba(12, 12, 12, 0.7);
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   padding: 0 30px;
 }
 
 .sticky .header_area {
-  background-color: rgba(14, 2, 35, 0.9);
+  background-color: rgba(12, 15, 35, 0.9);
   height: 80px;
   z-index: 9999;
   border-bottom: 1px solid transparent;
@@ -103,7 +103,7 @@ li {
   padding-left: 15px;
   color: white;
   font-weight: 700;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   font-size: 15px;
 }
 
