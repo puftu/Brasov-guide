@@ -50,6 +50,18 @@ $(function() {
       }
     });
     router.on({
+      'hotels': function() {
+        console.log("hotels");
+        $.ajax({
+          url: "data/hotels.json",
+        }).then(function(data) {
+          console.log(data);
+          window.markerData = data;
+          $("#mainContainer").load("places/places.html", null, initPage);
+        });
+      }
+    });
+    router.on({
       'gallery': function() {
         console.log("gallery");
         $("#mainContainer").load("gallery/gallery.html");

@@ -155,7 +155,7 @@ function initMarkerData() {
         lat: 45.635245,
         lng: 25.579884
       }
-    },
+    }
   ]
 }
 
