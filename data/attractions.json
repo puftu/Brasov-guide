@@ -1,0 +1,91 @@
+[{
+      "name": "Black Church",
+      "picture": "attractions/black church.jpg",
+      "index": 0,
+      "id": "bChurch",
+      "rating": 4.6,
+      "address": "Curtea Honterus 1",
+      "website": "http://www.honterusgemeinde.ro/",
+      "nameWebSite": "honterusgemeinde.ro",
+      "phone": "0268 511 824",
+      "coordonates": {
+        "lat": 45.64088,
+        "lng": 25.587809
+      }
+    },
+    {
+      "name": "saint Nicholas Church",
+      "picture": "attractions/st nicholas.jpg",
+      "index": 1,
+      "id": "nChurch",
+      "rating": 4.1,
+      "address": "Piața Unirii 1",
+      "website": "https://en.wikipedia.org/wiki/St._Nicholas_Church,_Bra%C8%99ov",
+      "nameWebSite": "wikipedia.org",
+      "phone": "0757 727 793",
+      "coordonates": {
+        "lat": 45.6356261,
+        "lng": 25.5791877
+      }
+    },
+    {
+      "name": "Weawers bastion",
+      "picture": "attractions/bastionul tesatorilor.jpg",
+      "index": 2,
+      "id": "Bastion",
+      "rating": 3.6,
+      "address": "Strada George Coșbuc 9",
+      "website": "http://www.brasovistorie.ro/despre-muzeu/istoria-cladirilor/bastionul-tesatorilor",
+      "nameWebSite": "brasovistorie.ro",
+      "phone": "0268 472 363",
+      "coordonates": {
+        "lat": 45.6369876,
+        "lng": 25.586798
+      }
+    },
+    {
+      "name": "Council Square",
+      "picture": "attractions/council square.jpg",
+      "index": 3,
+      "id": "star",
+      "rating": 4.7,
+      "address": "Piața Sfatului 28",
+      "website": "http://www.brasovistorie.ro/despre-muzeu/istoria-cladirilor/casa-sfatului",
+      "nameWebSite": "brasovistorie.ro",
+      "phone": "0268 472 350",
+      "coordonates": {
+        "lat": 45.6423586,
+        "lng": 25.5867546
+      }
+    },
+    {
+      "name": "Romanian School",
+      "picture": "attractions/scoala.jpg",
+      "index": 3,
+      "id": "school",
+      "rating": 4.7,
+      "address": "Piața Unirii 2-3,",
+      "website": "http://www.primascoalaromaneasca.ro/",
+      "nameWebSite": "primascoalaromaneasca.ro",
+      "phone": "0722 435 134",
+      "coordonates": {
+        "lat": 45.6358343,
+        "lng": 25.5790123
+      }
+    },
+    {
+      "name": "Tampa",
+      "picture": "attractions/tampa.jpg",
+      "index": 3,
+      "id": "tampa",
+      "rating": 4.7,
+      "address": "Brasov",
+      "website": "http://www.brasovistorie.ro/",
+      "nameWebSite": "brasovistorie.ro",
+      "phone": "",
+      "coordonates": {
+        "lat": 45.6339827,
+        "lng": 25.5835735
+      }
+    }
+  ]
