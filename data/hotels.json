@@ -1,7 +1,7 @@
 [
   {
     "name": "Kronwell",
-    "picture": "Kronwell.jpg",
+    "picture": "Hotels/Kronwell.jpg",
     "index": 0,
     "id": "Kronwell",
     "rating": 4.7,
@@ -16,7 +16,7 @@
   },
   {
     "name": "Victoria Bulevard",
-    "picture": "Victoria Bulevard.jpg",
+    "picture": "Hotels/Victoria Bulevard.jpg",
     "index": 1,
     "id": "Victoria Bulevard",
     "rating": 4.6,
@@ -31,7 +31,7 @@
   },
   {
     "name": "Belfort Hotel",
-    "picture": "Belfort.jpg",
+    "picture": "Hotels/Belfort.jpg",
     "index": 2,
     "id": "Belfort",
     "rating": 4.6,
@@ -46,7 +46,7 @@
   },
   {
     "name": "Armatti",
-    "picture": "Armatti.jpg",
+    "picture": "Hotels/Armatti.jpg",
     "index": 3,
     "id": "Armatti",
     "rating": 4.2,
@@ -61,7 +61,7 @@
   },
   {
     "name": "Aro Palace",
-    "picture": "Aro Palace.jpg",
+    "picture": "Hotels/Aro Palace.jpg",
     "index": 4,
     "id": "Aro Palace",
     "rating": 4.7,
@@ -76,7 +76,7 @@
   },
   {
     "name": "Golden Time",
-    "picture": "Golden Time.jpg",
+    "picture": "Hotels/Golden Time.jpg",
     "index": 5,
     "id": "Golden Time",
     "rating": 4.4,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Ramada",
-    "picture": "Ramada.jpg",
+    "picture": "Hotels/Ramada.jpg",
     "index": 6,
     "id": "Ramada",
     "rating": 4.3,
@@ -106,7 +106,7 @@
   },
   {
     "name": "Belvedere",
-    "picture": "Belvedere.jpg",
+    "picture": "Hotels/Belvedere.jpg",
     "index": 7,
     "id": "Belvedere",
     "rating": 4.5,
@@ -121,7 +121,7 @@
   },
   {
     "name": "Hotel Gott",
-    "picture": "Hotel Gott.jpg",
+    "picture": "Hotels/Hotel Gott.jpg",
     "index": 8,
     "id": "Hotel Gott",
     "rating": 4.5,
@@ -136,7 +136,7 @@
   },
   {
     "name": "Coroana Brasovului",
-    "picture": "Coroana Brasovului.jpg",
+    "picture": "Hotels/Coroana Brasovului.jpg",
     "index": 9,
     "id": "Coroana Brasovului",
     "rating": 4.4,
