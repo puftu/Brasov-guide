@@ -1,6 +1,6 @@
 [{
       "name": "Gaura Dulce",
-      "picture": "gaura-dulce-9.png",
+      "picture": "restaurants/gaura-dulce-9.png",
       "index": 0,
       "id": "gauraDulce",
       "rating": 4.3,
@@ -15,7 +15,7 @@
     },
     {
       "name": "Sergiana",
-      "picture": "sergiana-brasov.png",
+      "picture": "restaurants/sergiana-brasov.png",
       "index": 1,
       "id": "sergiana",
       "rating": 4.5,
@@ -30,7 +30,7 @@
     },
     {
       "name": "Bistro de l'arte",
-      "picture": "bistro-del-arte.png",
+      "picture": "restaurants/bistro-del-arte.png",
       "index": 2,
       "id": "bistro",
       "rating": 4.4,
@@ -45,7 +45,7 @@
     },
     {
       "name": "Casa Hirscher",
-      "picture": "casa-hirscher.png",
+      "picture": "restaurants/casa-hirscher.png",
       "index": 3,
       "id": "hirsher",
       "rating": 4.1,
@@ -60,7 +60,7 @@
     },
     {
       "name": "Festival 39",
-      "picture": "festival_39.png",
+      "picture": "restaurants/festival_39.png",
       "index": 4,
       "id": "festival",
       "rating": 4.5,
@@ -75,7 +75,7 @@
     },
     {
       "name": "Trattorian",
-      "picture": "trattorian.png",
+      "picture": "restaurants/trattorian.png",
       "index": 5,
       "id": "trattorian",
       "rating": 4.5,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Gratar Urban",
-      "picture": "gratar-urban.png",
+      "picture": "restaurants/gratar-urban.png",
       "index": 6,
       "id": "gratar",
       "rating": 4.6,
@@ -105,7 +105,7 @@
     },
     {
       "name": "Vino e Sapori",
-      "picture": "vino-e-sapori.png",
+      "picture": "restaurants/vino-e-sapori.png",
       "index": 7,
       "id": "vinoESapori",
       "rating": 4.6,

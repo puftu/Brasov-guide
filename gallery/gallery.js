@@ -5,7 +5,7 @@ $(function() {
     sort: 'relevance',
     text: 'Brasov',
     extras: 'url_m, url_q',
-    per_page: 100,
+    per_page: 10,
     format: 'json',
     nojsoncallback: 1
   };
