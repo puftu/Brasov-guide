@@ -1,6 +1,6 @@
 [{
   "name": "Coresi Shopping Resort",
-  "picture": "coresi.jpg",
+  "picture": "shopping/coresi.jpg",
   "index": 0,
   "id": "coresi",
   "rating": 4.6,
@@ -15,7 +15,7 @@
 },
 {
   "name": "Eliana Mall",
-  "picture": "eliana.jpg",
+  "picture": "shopping/eliana.jpg",
   "index": 1,
   "id": "eliana",
   "rating": 4.1,
@@ -30,7 +30,7 @@
 },
 {
   "name": "Unirea Shopping Center",
-  "picture": "unirea.jpg",
+  "picture": "shopping/unirea.jpg",
   "index": 2,
   "id": "unirea",
   "rating": 3.6,
@@ -45,7 +45,7 @@
 },
 {
   "name": "Star Shopping Center",
-  "picture": "star.jpg",
+  "picture": "shopping/star.jpg",
   "index": 3,
   "id": "star",
   "rating": 4.7,

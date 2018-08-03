@@ -9,7 +9,7 @@ function initPage() {
 function initMap() {
   window.map = new google.maps.Map(document.querySelector('#map'), {
     center: markerData[1].coordonates,
-    zoom: 14
+    zoom: 13
   });
   for (var i = 0; i < markerData.length; i++) {
     var marker = new google.maps.Marker({

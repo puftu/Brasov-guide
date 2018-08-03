@@ -81,7 +81,7 @@
   .contact-text h4 {
     font-size: 20px;
   }
-  .gallery {
+  #galleryContainer {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -155,7 +155,7 @@
   .dorne-map-area {
     height: 500px;
   }
-  .gallery {
+  #galleryContainer {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -234,8 +234,8 @@
   }
 }
 
-@media screen and (max-width: 576px) {
-  .gallery {
+@media screen and (max-width: 320px) {
+  #galleryContainer {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;

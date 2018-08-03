@@ -1,9 +1,19 @@
+<link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="/js/lightgallery/css/lightgallery.min.css">
 <script type="text/javascript" src="js/lightgallery/js/lightgallery.min.js">
 </script>
 <script type="text/javascript" src="gallery/gallery.js">
 </script>
+<section>
+  <div class="breadcumb-area" style="background-image: url(img/Images/contact.png)">
+  </div>
+</section>
 
-<div id="galleryContainer" class="bg-default">
-
-</div>
+<h1 class="text-center  my-5">Gallery</h1>
+<div id="galleryContainer" class="container"></div>
+<!-- pagination -->
+<section class="text-center">
+  <div id="listingTable"></div>
+  <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+  <a href="javascript:nextPage()" id="btn_next">Next</a> page: <span id="page"></span>
+</section>
