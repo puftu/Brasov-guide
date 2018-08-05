@@ -101,7 +101,15 @@ li {
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-item.active .nav-link {
-  color: #7643ea;
+  color: gray;
+}
+
+.navbar-toggler {
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 37px 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 /* Welcome Area CSS */
@@ -117,9 +125,9 @@ li {
 
 /* Features Area CSS */
 
-.bg-default {
+/* .bg-default {
   background-color: #341a79;
-}
+} */
 
 .dorne-features-destinations-area, .dorne-features-restaurant-area {
   padding: 100px 35px;
@@ -176,7 +184,6 @@ li {
 }
 
 .single-features-area:hover {
-  background-color: #7643ea;
   box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -185,17 +192,17 @@ li {
 }
 
 .ratings-map-area>a {
-  padding: 0 30px;
-  font-size: 16px;
-  font-weight: 800;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 600;
   color: #fff;
-  height: 70px;
+  height: 40px;
   line-height: 70px;
-  background-color: #7643ea;
+  background-color: blue;
 }
 
 .ratings-map-area>a:last-child {
-  background-color: #2a2a2a;
+  background-color: #124888;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +224,7 @@ li {
 }
 
 .single-features-area:hover .ratings-map-area>a:last-child {
-  background-color: #30c0a3;
+  background-color: #030C44;
 }
 
 a .section-heading {
@@ -261,4 +268,25 @@ a .section-heading {
 }
 
 .footer-copyright {
-  background-color: #9370DB;
+  background-color: rgba(12, 15, 35, 1);
+}
+
+/* scrool */
+
+.generate-back-to-top, .generate-back-to-top:visited {
+  background-color: #cc1111;
+  color: #ffffff;
+}
+
+.generate-back-to-top, .generate-back-to-top:visited {
+  font-size: 20px;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+  z-index: 10;
+  transition: opacity 300ms ease-in-out;
+}

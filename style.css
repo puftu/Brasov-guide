@@ -95,7 +95,7 @@ li {
 
 .navbar-brand:hover, .navbar-brand:focus {
   color: #fff;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -103,12 +103,11 @@ li {
   padding-left: 15px;
   color: white;
   font-weight: 700;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   font-size: 15px;
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-item.active .nav-link {
-  color: #7643ea;
+  color: gray;
 }
 
 /* Welcome Area CSS */
@@ -193,6 +192,11 @@ li {
 
 .dorne-btn:hover {
   background-color: #D3D3D3;
+  box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.fa:hover {
+  color: #124888;
 }
 
 .img-responsive {
@@ -371,7 +375,8 @@ video {
 }
 
 .footer-copyright {
-  background-color: #9370DB;
+  background-color: rgba(12, 15, 35, 1);
+  font-size: 12px;
 }
 
 .fontContact {
