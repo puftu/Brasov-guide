@@ -266,6 +266,11 @@ video {
 
 /* gallery */
 
+.galleryHeader {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
 #galleryContainer {
   -webkit-column-count: 4;
   -moz-column-count: 4;
@@ -322,6 +327,13 @@ video {
 }
 
 /* contact */
+
+.contactText {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: black;
+  text-indent: 70px;
+}
 
 .center-block {
   display: block;
