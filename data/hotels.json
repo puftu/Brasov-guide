@@ -1,5 +1,4 @@
-[
-  {
+[{
     "name": "Kronwell",
     "picture": "Hotels/Kronwell.jpg",
     "index": 0,
@@ -18,7 +17,7 @@
     "name": "Victoria Bulevard",
     "picture": "Hotels/Victoria Bulevard.jpg",
     "index": 1,
-    "id": "Victoria Bulevard",
+    "id": "VictoriaBulevard",
     "rating": 4.6,
     "address": "Bulevardul Victoriei 6A, Brașov",
     "website": "http://www.victoriabulevardhotel.ro/",
@@ -63,7 +62,7 @@
     "name": "Aro Palace",
     "picture": "Hotels/Aro Palace.jpg",
     "index": 4,
-    "id": "Aro Palace",
+    "id": "AroPalace",
     "rating": 4.7,
     "address": "Bulevardul Eroilor 27, Brașov",
     "website": "https://aro-palace.ro/",
@@ -78,7 +77,7 @@
     "name": "Golden Time",
     "picture": "Hotels/Golden Time.jpg",
     "index": 5,
-    "id": "Golden Time",
+    "id": "GoldenTime",
     "rating": 4.4,
     "address": "Calea București 99, Brașov",
     "website": "http://www.goldentimehotel.ro/",
@@ -120,7 +119,7 @@
     }
   },
   {
-    "name": "Hotel Gott",
+    "name": "HotelGott",
     "picture": "Hotels/Hotel Gott.jpg",
     "index": 8,
     "id": "Hotel Gott",
@@ -138,7 +137,7 @@
     "name": "Coroana Brasovului",
     "picture": "Hotels/Coroana Brasovului.jpg",
     "index": 9,
-    "id": "Coroana Brasovului",
+    "id": "CoroanaBrasovului",
     "rating": 4.4,
     "address": "Strada Doctor Vasile Saftu 1, Brașov",
     "website": "https://coroana-brasovului.ro/",
@@ -148,4 +147,35 @@
       "lat": 45.635245,
       "lng": 25.579884
     }
-  }]
+  },
+  {
+    "name": "Bella Muzica",
+    "picture": "Hotels/Bella Muzica.jpg",
+    "index": 9,
+    "id": "BellaMuzica",
+    "rating": 4.6,
+    "address": "Piața Sfatului 19, Brașov",
+    "website": "http://bellamuzica.ro//",
+    "nameWebSite": "bellamuzica.ro",
+    "phone": "0268 477 956",
+    "coordonates": {
+      "lat": 45.6418063,
+      "lng": 25.5880017
+    }
+  },
+  {
+    "name": "Hotel Kolping",
+    "picture": "Hotels/Hotel Kolping.jpg",
+    "index": 9,
+    "id": "HotelKolping",
+    "rating": 4.5,
+    "address": "Strada Petőfi Sándor 27, Brașov",
+    "website": "http://hotel.kolping.ro/",
+    "nameWebSite": "hotel.kolping.ro",
+    "phone": "0268 413 529",
+    "coordonates": {
+      "lat": 45.634647,
+      "lng": 25.586975
+    }
+  }
+]
