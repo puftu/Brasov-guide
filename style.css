@@ -227,7 +227,7 @@ video {
 .weather1 {
   display: inline-block;
   position: absolute;
-  top: 120px;
+  top: 30px;
   right: 20px;
   padding: 10px;
   background: rgba(225, 255, 255, 0.3);

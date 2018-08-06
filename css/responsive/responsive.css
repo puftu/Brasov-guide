@@ -119,7 +119,7 @@
   }
   #dorneNav {
     padding: 15px;
-    background-color: #030C44;
+    background-color: rgba(12, 15, 35, 0.9);
     box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
     border-radius: 0 0 3px 3px;
   }
