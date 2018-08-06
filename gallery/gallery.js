@@ -5,6 +5,16 @@ $(function() {
   function paginationClickHandler(e) {
     var pageNumber = e.currentTarget.innerHTML;
     loadGallery(pageNumber);
+
+    var header = document.getElementById("listingTable");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
   }
 
   function loadGallery(pageNumber) {
@@ -14,7 +24,7 @@ $(function() {
       sort: 'relevance',
       text: 'Brasov',
       extras: 'url_m, url_q',
-      per_page: 30,
+      per_page: 32,
       page: pageNumber,
       format: 'json',
       nojsoncallback: 1
@@ -44,52 +54,8 @@ $(function() {
   }
 });
 
-//pagination
 
 
-
-
-
-
-
-
-
-// var current_page = 1;
-// var records_per_page = 3;
-//
-// var objJson =
-
-// [{
-//     adName: "AdName 1"
-//   },
-//   {
-//     adName: "AdName 2"
-//   },
-//   {
-//
-//   }
-// ]; // Can be obtained from another source, such as your objJson variable
-
-// function prevPage() {
-//   if (current_page > 1) {
-//     current_page--;
-//     changePage(current_page);
-//   }
-// }
-//
-// function nextPage() {
-//   if (current_page < numPages()) {
-//     current_page++;
-//     changePage(current_page);
-//   }
-// }
-//
-// function changePage(page) {
-//   var btn_next = document.getElementById("btn_next");
-//   var btn_prev = document.getElementById("btn_prev");
-//   var listing_table = document.getElementById("listingTable");
-//   var page_span = document.getElementById("page");
-//
 //   // Validate page
 //   if (page < 1) page = 1;
 //   if (page > numPages()) page = numPages();
