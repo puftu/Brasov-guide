@@ -14,7 +14,7 @@
       }
     },
     {
-      "name": "saint Nicholas Church",
+      "name": "Saint Nicholas Church",
       "picture": "attractions/st nicholas.jpg",
       "index": 1,
       "id": "nChurch",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "name": "Weawers bastion",
+      "name": "Weawers Bastion",
       "picture": "attractions/bastionul tesatorilor.jpg",
       "index": 2,
       "id": "Bastion",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "name": "Tampa",
+      "name": "Tampa Mountain",
       "picture": "attractions/tampa.jpg",
       "index": 5,
       "id": "tampa",
@@ -89,11 +89,12 @@
       }
     },
     {
-      "name": "Bartolomeu",
+      "name": "Bartholomew Church",
       "picture": "attractions/bartolomae.jpg",
       "index": 6,
       "id": "Bartolomeu",
       "rating": 4.7,
+      "address": "Str. Lungă nr. 251",
       "address": "Brasov",
       "website": "http://www.bartholomae.ro/",
       "nameWebSite": "bartholomae.ro",
@@ -104,11 +105,12 @@
     }
   },
     {
-      "name": "casaMuresenilor",
-      "picture": "attractions/bartolomae.jpg",
+      "name": "Muresenilor House",
+      "picture": "attractions/muresenilor.jpg",
       "index": 7,
       "id": "casaMuresenilor",
       "rating": 4.7,
+      "address": "Piaţa Sfatului nr. 25",
       "address": "Brasov",
       "website": "http://muzeulmuresenilor.ro/",
       "nameWebSite": "muzeulmuresenilor.ro",
