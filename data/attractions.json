@@ -61,7 +61,7 @@
     {
       "name": "Romanian School",
       "picture": "attractions/scoala.jpg",
-      "index": 3,
+      "index": 4,
       "id": "school",
       "rating": 4.7,
       "address": "Piața Unirii 2-3,",
@@ -76,7 +76,7 @@
     {
       "name": "Tampa",
       "picture": "attractions/tampa.jpg",
-      "index": 3,
+      "index": 5,
       "id": "tampa",
       "rating": 4.7,
       "address": "Brasov",
@@ -87,5 +87,35 @@
         "lat": 45.6339827,
         "lng": 25.5835735
       }
+    },
+    {
+      "name": "Bartolomeu",
+      "picture": "attractions/bartolomae.jpg",
+      "index": 6,
+      "id": "Bartolomeu",
+      "rating": 4.7,
+      "address": "Brasov",
+      "website": "http://www.bartholomae.ro/",
+      "nameWebSite": "bartholomae.ro",
+      "phone": "0268 510 432",
+      "coordonates": {
+        "lat": 45.662733,
+        "lng": 25.5755657
     }
+  },
+    {
+      "name": "casaMuresenilor",
+      "picture": "attractions/bartolomae.jpg",
+      "index": 7,
+      "id": "casaMuresenilor",
+      "rating": 4.7,
+      "address": "Brasov",
+      "website": "http://muzeulmuresenilor.ro/",
+      "nameWebSite": "muzeulmuresenilor.ro",
+      "phone": "0268 477 864",
+      "coordonates": {
+        "lat": 45.6424073,
+        "lng": 25.5861363
+    }
+}
   ]
