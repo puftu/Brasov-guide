@@ -3467,7 +3467,7 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: 1;
   background: 0 0;
-  border: 1px solid transparent;
+  border: 2px solid #fff;
   border-radius: .25rem
 }
 

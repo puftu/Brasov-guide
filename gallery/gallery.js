@@ -41,8 +41,6 @@ $(function() {
 
             src: value.url_q,
             title: value.title,
-            height: '300px',
-            width: '300px',
           })).appendTo(images);
         });
         $('#galleryContainer').html(images);
