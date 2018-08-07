@@ -31,7 +31,7 @@ $(function() {
     };
 
 
-    $.get('http://api.flickr.com/services/rest/', opts, function(resp) {
+    $.get('https://api.flickr.com/services/rest/', opts, function(resp) {
       var images = $("<div id='lightgallery'>");
       if (resp.stat === "ok") {
         $.each(resp.photos.photo, function(index, value) {
