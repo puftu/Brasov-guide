@@ -1,10 +1,17 @@
+(function($) {
+  $.fn.goTo = function() {
+    $('html, body').animate({
+      scrollTop: $(this).offset().top + 'px'
+    }, 'slow');
+    return this; // for chaining...
+  }
+})(jQuery);
+
 function initPage() {
   window.googleMarkerData = [];
   initShoppingTemplate();
   $(".markerLink").on("click", highlightMarker);
 }
-
-
 
 function initMap() {
   window.map = new google.maps.Map(document.querySelector('#map'), {
@@ -47,6 +54,7 @@ function highlightMarker(event) {
     googleMarkerData[index].setAnimation(null);
   }
   map.setCenter(markerData[index].coordonates);
+  $('#map').goTo();
 };
 
 function clearMarkerAnimation() {
