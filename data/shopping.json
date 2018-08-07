@@ -57,4 +57,65 @@
     "lat": 45.643681,
     "lng": 25.597442
   }
-}]
+},
+{
+  "name": "Magnolia Shopping Center",
+  "picture": "shopping/magnolia.jpg",
+  "index": 4,
+  "id": "magnolia",
+  "rating": 3.8,
+  "address": "Strada Crișului 18, Brașov",
+  "website": "http://magnoliacenter.ro/",
+  "nameWebSite": "magnoliacenter.ro",
+  "phone": "0268 304 300",
+  "coordonates": {
+    "lat": 45.642861,
+    "lng": 25.621398
+  }
+},
+{
+  "name": "Carrefour Shopping Center",
+  "picture": "shopping/carrefour.jpg",
+  "index": 5,
+  "id": "carrefour",
+  "rating": 4.2,
+  "address": "Calea București, nr. 107, Brașov",
+  "website": "https://carrefour.ro/",
+  "nameWebSite": "carrefour.ro",
+  "phone": "0268 317 000",
+  "coordonates": {
+    "lat": 45.6351238,
+    "lng": 25.604686
+  }
+},
+{
+  "name": "Decathlon",
+  "picture": "shopping/dechatlon.jpg",
+  "index": 6,
+  "id": "dechatlon",
+  "rating": 4.5,
+  "address": "Calea București 152, Brașov ",
+  "website": "https://www.decathlon.ro/",
+  "nameWebSite": "decathlon.ro",
+  "phone": "0268 337 200",
+  "coordonates": {
+    "lat": 45.628490,
+    "lng": 25.639036
+  }
+},
+{
+  "name": "Republic Street",
+  "picture": "shopping/republici.jpg",
+  "index": 7,
+  "id": "republic",
+  "rating": 4.7,
+  "address": "Republic Street 1-59, Brașov",
+  "website": "",
+  "nameWebSite": "",
+  "phone": "",
+  "coordonates": {
+    "lat": 45.644711,
+    "lng": 25.595041
+  }
+}
+]
