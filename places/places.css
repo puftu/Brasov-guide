@@ -271,11 +271,10 @@ a .section-heading {
   background-color: rgba(12, 15, 35, 1);
 }
 
-/* scrool */
+/* schrol */
 
 .generate-back-to-top, .generate-back-to-top:visited {
-  background-color: #cc1111;
-  color: #ffffff;
+  color: #124888;
 }
 
 .generate-back-to-top, .generate-back-to-top:visited {
