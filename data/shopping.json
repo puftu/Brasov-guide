@@ -74,21 +74,6 @@
   }
 },
 {
-  "name": "Carrefour Shopping Center",
-  "picture": "shopping/carrefour.jpg",
-  "index": 5,
-  "id": "carrefour",
-  "rating": 4.2,
-  "address": "Calea București, nr. 107, Brașov",
-  "website": "https://carrefour.ro/",
-  "nameWebSite": "carrefour.ro",
-  "phone": "0268 317 000",
-  "coordonates": {
-    "lat": 45.6351238,
-    "lng": 25.604686
-  }
-},
-{
   "name": "Decathlon",
   "picture": "shopping/dechatlon.jpg",
   "index": 6,
@@ -101,6 +86,21 @@
   "coordonates": {
     "lat": 45.628490,
     "lng": 25.639036
+  }
+},
+{
+  "name": "Carrefour Shopping Center",
+  "picture": "shopping/carrefour.jpg",
+  "index": 5,
+  "id": "carrefour",
+  "rating": 4.2,
+  "address": "Calea București, nr. 107, Brașov",
+  "website": "https://carrefour.ro/",
+  "nameWebSite": "carrefour.ro",
+  "phone": "0268 317 000",
+  "coordonates": {
+    "lat": 45.6351238,
+    "lng": 25.604686
   }
 },
 {

@@ -285,7 +285,7 @@ video {
   color: white;
 }
 
-/* schrol */
+/* scroll */
 
 .generate-back-to-top, .generate-back-to-top:visited {
   color: #124888;
@@ -296,7 +296,7 @@ video {
   border-radius: 3px;
   position: fixed;
   bottom: 30px;
-  right: 20px;
+  right: 15px;
   line-height: 40px;
   width: 40px;
   text-align: center;

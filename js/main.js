@@ -3,11 +3,10 @@ $(function() {
   initNavigation();
   initRoutes();
 
-
   function initNavigation() {
     var root = null;
-    var useHash = true; // Defaults to: false
-    var hash = '#!'; // Defaults to: '#'
+    var useHash = true;
+    var hash = '#!';
     window.router = new Navigo(root, useHash, hash);
   }
 
@@ -26,8 +25,6 @@ $(function() {
     router.on({
       'shopping': function() {
         console.log("shopping");
-
-        // window.markerData =
         $.ajax({
           url: "data/shopping.json",
         }).then(function(data) {
